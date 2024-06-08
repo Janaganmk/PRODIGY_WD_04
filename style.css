@@ -1,0 +1,291 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: lightgray;
+}
+
+.about{
+    width:25%;
+    height: 100%;
+    position:fixed;
+    float: left;
+    background-color: white;
+    margin-left: 50px;
+}
+
+.about img{
+    padding: 25px;
+    margin-left: 35px;
+    width: 220px;
+    height: 290px;
+    object-fit: cover;
+    background-color: white;
+}
+
+.about h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: rgb(86, 184, 94);
+    background-color: white;
+}
+.about h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 42px;
+    padding-bottom: 15px;
+    background-color: white;
+    color:rgb(29, 59, 73) ;
+}
+
+.about a img{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.about a{
+    margin-left: 30px;
+    background-color: white;
+}
+
+.about a img:hover{
+    background-color: lightgray;
+}
+
+.about h4{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-top: 20px;
+    cursor: pointer;
+    color: rgb(112, 204, 112);
+    display: inline-block;
+    margin-left: 40px;
+    background-color: white;
+}
+
+.about h4:hover{
+    color: rgb(17, 167, 17);
+}
+
+.about .h4{
+    margin-left: 10px;
+}
+
+.bg2{
+    height: 100%;
+    width:50%;
+    margin-left: 32%;
+}
+
+.bg2 .mybio{
+    background-color: white;
+    padding: 25px;
+    padding-top: 70px;
+    margin-top: 20px;
+}
+
+.bg2 .mybio h2{
+    background-color: white;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+.line{
+    height: 3px;
+    width: 100px;
+    background-color: rgb(112, 204, 112);
+}
+
+.mybio p{
+    background-color: white;
+    padding-top: 25px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.bio{
+    width: 40%;
+    height: 230px;
+    background-color: white;
+    display: inline-block;
+    padding-top: 25px;
+    padding-left: 20px;
+    float: left;
+}
+
+.bio p{
+    display: inline-block;
+    padding-top: 10px;
+    color: rgb(17, 167, 17);
+    font-size: 20px;
+}
+
+.bio span{
+    font-size: 18px;
+    padding-left: 10px;
+    background-color: white;
+    color: black;
+}
+
+.bio2{
+    width: 40%;
+    height: 230px;
+    background-color: white;
+    display: inline-block;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.bio2 p{
+    display: inline-block;
+    padding-top: 10px;
+    color: rgb(17, 167, 17);
+    font-size: 20px;
+}
+
+.bio2 span{
+    font-size: 18px;
+    padding-left: 10px;
+    background-color: white;
+    color: black;
+}
+
+.bg2 .skills{
+    background-color: white;
+    padding: 25px;
+    padding-top: 70px;
+    margin-top: 20px;
+}
+
+.bg2 .skills h2{
+    background-color: white;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+.line2{
+    height: 3px;
+    width: 100px;
+    background-color: rgb(112, 204, 112);
+}
+
+.skills h3{
+    background-color: white;
+    padding: 10px;
+
+}
+
+.bg2 .email{
+    background-color: white;
+    padding: 25px;
+    padding-top: 70px;
+    margin-top: 20px;
+}
+
+.bg2 .email h2{
+    background-color: white;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+.line3{
+    height: 3px;
+    width: 100px;
+    background-color: rgb(112, 204, 112);
+}
+
+.email input {
+    background-color: white;
+    width: 70%;
+    height: 40%;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.email textarea{
+    background-color: white;
+    width: 50%;
+    height: 150px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.email input::placeholder{
+    color: rgb(112, 204, 112);
+    font-family: 'poppins';
+    font-size:14px ;
+}
+.email textarea::placeholder{
+    color: rgb(112, 204, 112);
+    font-family: 'poppins';
+    font-size:14px ;
+}
+
+.email button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+    border-radius: 10px;
+    background-color: rgb(112, 204, 112);
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+.email button:hover{
+    background-color: rgb(17, 167, 17);
+}
+
+.contact{
+    background-color: rgb(112, 204, 112);
+    width: 100%;
+    height: 100px;
+    
+}
+.contact a img{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    background-color: rgb(112, 204, 112);
+    border-radius: 10px;
+    margin-left: 75px;
+    margin-top: 60px;
+}
+
+.contact a{
+    margin-left: 30px;
+    background-color: rgb(112, 204, 112);
+}
+
+.contact a img:hover{
+    background-color: rgb(94, 238, 94);
+}
+
+.contact .img4{
+    margin-top: 30px;
+    margin-left: 200px;
+    background-color: white;
+
+}
+
+.contact .img5{
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.contact .img6{
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: white;
+}
+
